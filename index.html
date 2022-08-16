@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <h1 class="wrapper">Encriptador</h1>
+    </header>
+    <main>
+        <section class="caja-principal">
+            <div class="caja-texto">
+                <textarea class="textarea" id="entrada-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui.."></textarea>
+            </div>
+
+            <div class="sub-caja">
+                <span><i class='bx bxs-error-circle'></i> Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="caja-botones">
+                <button class="boton" id="encriptar">Encriptar</button>
+                <button class="boton" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="caja-2">
+            <div class="caja-texto-2">
+                <div class="imagen">
+                    <img class="ilustracion" id="ilustracion" src="img/Muñeco.png" alt="ilustracion-buscando">
+                </div>
+                <textarea id="salida-texto" cols="30" rows="10" placeholder="Ningún mensaje fue encontrado aún" readonly></textarea>
+                <button class="boton" id="boton-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Florencia Villanueva 2022</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
+
+</html>
